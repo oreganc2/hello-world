@@ -1,7 +1,4 @@
-
 import requests
-
-
 
 def call_http_get():
   r = requests.get('https://api.github.com/events')
